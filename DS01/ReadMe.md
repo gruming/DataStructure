@@ -68,7 +68,7 @@ arr.length 는 배열의 크기를 반환하므로 위에서는 항상 20을 반
 삭제도 검색과 마찬가지로 중복이 없으면, 삭제할 데이터를 찾아 삭제 후 더이상 비교 작업을 하지 않도록 break; 를 사용하면 된다.
 데이터를 삭제하는 작업은 삭제할 데이터의 인덱스 이후의 값들을 앞으로 한칸씩 밀어주고 배열의 크기를 하나 감소시키면 된다.
 
-	int deleteKey =5;
+	int deleteKey = 5;
 	for(int i=0; i<size; i++){
        if(arr[i]==deleteKey){
            for(int k=i; k<size-1; k++){
