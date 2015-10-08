@@ -31,8 +31,6 @@ public class MyArrayTest {
 		// 배열의 크기를 오버 하면 에러가 발생한다.!! (단점)
 		arr.add("데이터 - 오버");
 		System.out.println("05. 배열의 마지막에 '데이터 - 오버' 를 삽입한 후 데이터를 출력. - " + arr);
-		
-		//수정
-		
+
 	}
 }
