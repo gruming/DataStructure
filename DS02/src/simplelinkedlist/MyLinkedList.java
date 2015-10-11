@@ -12,7 +12,7 @@ package simplelinkedlist;
  * @author gruming-new
  *
  */
-public class MyLinkedList {
+public class MyLinkedList { // LIFO( Last In first Out ) = 스택
 
 	private Node header;
 	private int size;
