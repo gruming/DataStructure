@@ -31,14 +31,14 @@ public class MyArray {
 	 */
 	public void add(Object obj) {
 
-		if (count >= data.length)
+	if (count >= data.length)
 			throw new ArrayIndexOutOfBoundsException(count + " >= "
-					+ data.length);
+			+ data.length);
 
-		// 배열의 마지막에 obj를 삽입한다.
-		data[count++] = obj;
+	// 배열의 마지막에 obj를 삽입한다.
+	data[count++] = obj;
 
-	}
+}
 
 	/**
 	 * index의 위치에 obj를 삽입한다. index 뒤의 데이터는 한칸씩 밀려난다.
